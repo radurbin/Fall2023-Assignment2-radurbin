@@ -2,7 +2,7 @@
 CSS:
     ✔ Set the background of the page to an image of your choice. Unsplash is a great resource for free images.
     ✔ Set the visibility of the "searchResults" and "time" divs to hidden.
-    - Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site.
+    ✔ Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site.
 */
 body {
     background-color: black;
@@ -11,10 +11,36 @@ body {
     background-repeat: no-repeat;
     background-size: 1500px;
     color: white;
+    font-family: 'Tape';
 }
+
 #searchResults {
     visibility: hidden;
 }
+
 #time {
     visibility: hidden;
+}
+
+@font-face {
+    font-family: 'Tape';
+    src: url('./css/fonts/Tape.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: #7ca398;
+}
+
+input[type="button" i] {
+    font-family: 'Tape' !important;
+    color: white !important;
+    background-color: #7ca398 !important;
+}
+
+input[type="text" i] {
+    font-family: 'Tape' !important;
+    color: #7ca398 !important;
+    background-color: white !important;
 }

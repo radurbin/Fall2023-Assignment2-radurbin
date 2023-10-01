@@ -28,14 +28,17 @@ BONUS:
 <body>
     <h1 id="title">Duct Tape Hay Stack</h1>
     <fieldset class="ui-widget ui-widget-content ui-corner-all">
-        <legend class="ui-widget ui-widget-header ui-corner-all">Search bar</legend>
+        <!--<legend class="ui-widget ui-widget-header ui-corner-all">Search bar</legend>-->
         <div>
-            <input type="text" id="query" name="query">
+            <input type="text" id="query" name="query" autocomplete="on">
             <input type="button" id="searchButton" name="Search" value="Search">
-            <input type="button" id="timeButton" name="Time" value="What Time is It?">
         </div>
         <br />
-        <input type="button" id="feelingLucky" name="feelingLucky" value="Find Me a Needle (I'm Feeling Lucky!)">
+        <div>
+            <input type="button" id="feelingLucky" name="feelingLucky" value="Find Me a Needle (I'm Feeling Lucky!)">
+            <input type="button" id="timeButton" name="Time" value="What Time is It?">
+            <input type="button" id="clearResults" name="ClearResults" value="Clear Results">
+        </div>
     </fieldset>
     <div id="searchResults">
         <!-- empty for now, will be populated with results -->
