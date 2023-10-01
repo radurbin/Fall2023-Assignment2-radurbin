@@ -39,3 +39,6 @@ function apiSearch() {
             alert('error');
         });
 }
+
+console.log("test");
+console.log(document.body.style.backgroundImage);
