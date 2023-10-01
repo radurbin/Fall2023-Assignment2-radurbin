@@ -1,10 +1,20 @@
 /*
 CSS:
-    - Set the background of the page to an image of your choice. Unsplash is a great resource for free images.
-    - Set the visibility of the "searchResults" and "time" divs to hidden.
+    ✔ Set the background of the page to an image of your choice. Unsplash is a great resource for free images.
+    ✔ Set the visibility of the "searchResults" and "time" divs to hidden.
     - Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site.
 */
 body {
-    background-image: url('./ductTapeHayStack.png');
-    background-size: auto;
+    background-color: black;
+    background-image: url('./css/images/background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    color: white;
+}
+#searchResults {
+    visibility: hidden;
+}
+#time {
+    visibility: hidden;
 }

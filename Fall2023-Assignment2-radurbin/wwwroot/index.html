@@ -9,7 +9,7 @@ HTML REQUIREMENTS:
     ✔ A second empty div with an ID of "time".
 BONUS:
     ✔ Implement a "I'm feeling lucky" button. This button should take the user to the first web page returned from your search API.
-    - Modify the function that changes your background image so that each click cycles through two different images without refreshing the page.
+    ✔ Modify the function that changes your background image so that each click cycles through two different images without refreshing the page.
 -->
 
 <!DOCTYPE html>
@@ -20,14 +20,13 @@ BONUS:
     <title>Duct Tape Hay Stack</title>
 
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet"
-          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/pepper-grinder/jquery-ui.css"
-          integrity="sha384-sqqDPqey9c5z9di0RN8pCagFkGsvQJ6zqdEbpRPzr26gnpplXNr8u4xnbzf1L9PA"
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/dot-luv/jquery-ui.css"
+          integrity="sha384-M2FEJ0O1QyNbNC8QiFt7ahf5gn+J5kFYAMVFNKpP+j9M/fXbFDHruEgkvkWWQpKC"
           crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Duct Tape Hay Stack</h1>
+    <h1 id="title">Duct Tape Hay Stack</h1>
     <fieldset class="ui-widget ui-widget-content ui-corner-all">
         <legend class="ui-widget ui-widget-header ui-corner-all">Search bar</legend>
         <div>
